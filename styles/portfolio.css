@@ -15,11 +15,11 @@ body {
   font-weight: 700;
   padding: 15px 35px;
 }
-.cont1{
+.cont1 {
   border-radius: 5px;
-  background: #FFF8F3;
-  border: 1px solid #FD6E0A;
-  color: #fd6e0a ;
+  background: #fff8f3;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -67,7 +67,8 @@ nav a {
 /* header related styles */
 .header {
   background-color: #fff8f3;
-  background-image: url('../images/header_bg.png'), url('../images/Developer1.png');
+  background-image: url("../images/header_bg.png"),
+    url("../images/Developer1.png");
   background-repeat: no-repeat;
   /* background-position: bottom right, center left; */
   background-position: bottom right, center left 18px;
@@ -96,8 +97,14 @@ nav a {
   margin-top: 5px;
   margin-bottom: 20px;
 }
-/* .banner-descripton {
-} */
+.banner-descripton {
+  width: 585px;
+  margin-bottom: 40px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
 
 /* main section styles */
 main {
@@ -164,7 +171,7 @@ resume-column-title {
   font-weight: 700;
   margin-bottom: 10px;
 }
-.resume-item-institute{
+.resume-item-institute {
   margin-bottom: 20px;
   margin-top: 0px;
 }
@@ -173,36 +180,37 @@ resume-column-title {
 .resume-item-institute {
   color: #757575;
 }
-.resume-container hr{
+.resume-container hr {
   margin: 30px;
 }
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 50px;
 }
 
 /* footer style */
-footer{
+footer {
   display: flex;
   gap: 100px;
-  background: #FFF8F3;
+  background: #fff8f3;
   margin-top: 100px;
   padding: 130px 200px;
 }
-.footer-column{
+.footer-column {
   width: 50%;
-
 }
-.social-links a{
+.social-links a {
   margin-right: 25px;
 }
-.contact input[type="text"], .contact input[type="email"], textarea{
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
   display: block;
   margin-bottom: 25px;
   padding: 18px 35px;
   color: #757575;
   border-radius: 5px;
-  background: #FFF;
+  background: #fff;
   border: 0;
   width: 100%;
 }
