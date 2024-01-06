@@ -15,6 +15,17 @@ body {
   font-weight: 700;
   padding: 15px 35px;
 }
+.cont1{
+  border-radius: 5px;
+  background: #FFF8F3;
+  border: 1px solid #FD6E0A;
+  color: #fd6e0a ;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 10px;
+  padding: 15px 15px;
+}
 .section-title {
   color: #181818;
   text-align: center;
@@ -56,9 +67,11 @@ nav a {
 /* header related styles */
 .header {
   background-color: #fff8f3;
-  background-image: url('../images/header_bg.png'), url('../images/developer.png');
+  background-image: url('../images/header_bg.png'), url('../images/Developer1.png');
   background-repeat: no-repeat;
-  background-position: bottom right, top left;
+  /* background-position: bottom right, center left; */
+  background-position: bottom right, center left 18px;
+  background-size: 50% 60%, 5% 100%;
 }
 .banner {
   padding: 30px 30px 0px 150px;
